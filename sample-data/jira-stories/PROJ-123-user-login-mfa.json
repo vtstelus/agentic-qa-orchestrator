@@ -1,0 +1,11 @@
+{
+  "key": "PROJ-123",
+  "fields": {
+    "summary": "User Login with Multi-Factor Authentication",
+    "description": "As a security-conscious user, I want to log in using email and OTP so that my account is protected against unauthorised access.",
+    "priority": { "name": "Critical" },
+    "status": { "name": "In Progress" },
+    "customfield_10016": "Given a valid email and OTP, when submitted, then the user is authenticated\nGiven an invalid OTP, when submitted, then a clear error is shown\nGiven 3 failed attempts, when submitted, then the account is temporarily locked",
+    "created": "2026-01-10T09:00:00.000Z"
+  }
+}

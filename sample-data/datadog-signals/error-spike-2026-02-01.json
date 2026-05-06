@@ -1,0 +1,9 @@
+{
+  "metric": "checkout.payment.errors",
+  "timestamp": "2026-02-01T14:30:00Z",
+  "value": 47,
+  "threshold": 5,
+  "tags": ["env:production", "service:checkout", "region:eu-west-2"],
+  "alert": "ERROR_RATE_SPIKE",
+  "relatedJiraKey": "PROJ-456"
+}

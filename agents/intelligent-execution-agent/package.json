@@ -1,0 +1,14 @@
+{
+  "name": "@qa-orchestrator/intelligent-execution-agent",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "winston": "^3.11.0"
+  }
+}

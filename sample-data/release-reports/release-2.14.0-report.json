@@ -1,0 +1,14 @@
+{
+  "reportId": "rpt-20260201-2140",
+  "releaseVersion": "2.14.0",
+  "generatedAt": "2026-02-01T11:30:00Z",
+  "deploymentRecommendation": "CONDITIONAL",
+  "conditions": ["Fix tc-089: Checkout expired card regression before production deploy"],
+  "summary": { "totalTests": 342, "passed": 335, "failed": 5, "skipped": 2, "passRate": 0.9795, "criticalFailures": 1 },
+  "riskAssessment": {
+    "overallRisk": "high",
+    "regressionRisk": 0.72,
+    "coverageScore": 0.88,
+    "topRisks": ["Payment flow regression", "Auth token edge case", "MFA timeout handling"]
+  }
+}

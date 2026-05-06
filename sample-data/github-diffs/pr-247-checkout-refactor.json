@@ -1,0 +1,12 @@
+{
+  "prNumber": 247,
+  "title": "Refactor checkout payment flow",
+  "changedFiles": [
+    "src/checkout/PaymentService.ts",
+    "src/checkout/OrderConfirmation.tsx",
+    "src/api/payment.controller.ts"
+  ],
+  "additions": 312,
+  "deletions": 89,
+  "labels": ["refactor", "payment", "needs-qa"]
+}
